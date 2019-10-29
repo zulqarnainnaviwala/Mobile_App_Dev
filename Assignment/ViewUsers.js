@@ -6,7 +6,9 @@ export default class ViewUsers extends React.Component {
     render() {
       return (
         <View Style={styles.container}>
-          <Text style={{fontSize:50}}>Names of user in flatlist Moosa :p </Text>
+          <Text style={{fontSize:20}}>a </Text>
+          <Text style={{fontSize:20}}>b </Text>
+
         </View>
       );
     }

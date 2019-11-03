@@ -25,29 +25,9 @@ export default class Login extends React.Component {
       <View style={styles.MainContainer} >
         <Text style={{ marginTop: -50, fontSize: 20, color: "black", fontWeight: "bold" }}>USER LOGIN</Text>
 
+        <View style={{ flex: 0.5, justifyContent: "center", alignItems: 'center', marginTop: 40 }}>
 
-        {/* <Image
-          style={{
-            borderWidth: 1,
-            borderColor: '#69c2bb',
-            alignItems: 'center',
-            justifyContent: 'center',
-            width: "35%",
-            height: "25%",
-            backgroundColor: '#69c2bb',
-            borderRadius: 160,
-            marginTop: 40
-          }}
-          source={require('../assets/profile2.png')}
-        /> */}
-
-        <View style={{ flex: 0.5, justifyContent: "center", alignItems: 'center', marginTop: 80 }}>
-
-          {/* {this.state.errorMessage &&
-            <Text style={{ color: '#800000', fontSize: 10, alignContent: 'center', textAlign: 'center' }}>
-              {this.state.errorMessage}
-            </Text>} */}
-
+     
 
           <Text style={{ marginTop: 15 }}>EMAIL: </Text>
           <TextInput
@@ -72,7 +52,7 @@ export default class Login extends React.Component {
 
 
 
-          <View flexDirection='row'>
+          <View flexDirection='row' style={{ flex: 0.5, marginTop: 40 }}>
 
             <TouchableOpacity
               onPress={() =>
@@ -126,7 +106,6 @@ const styles = StyleSheet.create({
     width: 280,
     marginTop: 12,
   },
-
   text: {
 
     color: '#fff'
@@ -141,6 +120,7 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     marginTop: 10
   },
+
   buttonText: {
     color: '#69c2bb',
     textAlign: 'center',

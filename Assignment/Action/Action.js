@@ -1,6 +1,5 @@
 import * as firebase from "firebase"
 
-
 const config = {
     apiKey: "AIzaSyAnmYd4qbfI6Sld8vZd_PSA0cNLzOdk7MM",
     authDomain: "mobile-app-development-fa19.firebaseapp.com",
@@ -11,6 +10,7 @@ const config = {
     appId: "1:29382328867:web:46b0b60d4f49912d96a796",
     measurementId: "G-0SKS3WEFJP"
   };
+
 
   const fire = firebase.initializeApp(config);
   export default fire;

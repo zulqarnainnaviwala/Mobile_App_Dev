@@ -1,11 +1,11 @@
-import * as React from 'react';
+import React from 'react';
 import { Button ,View ,StyleSheet, Text} from 'react-native';
 
 export default class Welcome extends React.Component {
     render() {
       return (
         <View style={styles.container}>
-          <Text style={{fontSize:50}}>Welcome {}</Text>
+          <Text style={{fontSize:50}}>Welcome</Text>
           <Button
             title="Users"
             onPress={() =>
@@ -20,7 +20,7 @@ export default class Welcome extends React.Component {
   const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#708090',
+      backgroundColor: 'white',
       alignItems: 'center',
       justifyContent: 'center',
     }

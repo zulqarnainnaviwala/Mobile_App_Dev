@@ -6,9 +6,10 @@ export default class ViewUsers extends React.Component {
     render() {
       return (
         <View Style={styles.container}>
-          <Text style={{fontSize:20}}>a </Text>
-          <Text style={{fontSize:20}}>b </Text>
-
+          <Text style={{fontSize:20,marginVertical:20,alignSelf:'center'}}>USERS</Text>
+          <Text style={{fontSize:20,alignSelf:'auto'}}>Zulqarnain</Text>
+          <Text style={{fontSize:20,alignSelf:'auto'}}>Aaqib</Text>
+          <Text style={{fontSize:20,alignSelf:'auto'}}>Aleem</Text>
         </View>
       );
     }
@@ -17,7 +18,7 @@ export default class ViewUsers extends React.Component {
   const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#708090',
+      backgroundColor: 'white',
       alignItems: 'center',
       justifyContent: 'center',
     }})
